@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+    <name>Presenze CSV Import</name>
+    <author>Il Tuo Nome</author>
+    <version>1.0.0</version>
+    <description>Plugin di sistema per importare dati di presenze da un file CSV (matricola, data, ora) nel backend.</description>
+
+    <params>
+        <param name="csv_file_path" type="text" default="" label="Percorso File CSV" description="Inserisci il percorso completo del file CSV da importare." />
+        <param name="table_name" type="text" default="your_table_name" label="Nome Tabella Database" description="Inserisci il nome della tabella del database in cui importare i dati." />
+    </params>
+
+    <files>
+        <filename plugin="presenzecsvimport">presenzecsvimport.php</filename>
+    </files>
+</install>
