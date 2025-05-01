@@ -7,7 +7,7 @@
 
     <params>
         <param name="csv_file_path" type="text" default="" label="Percorso File CSV" description="Inserisci il percorso completo del file CSV da importare." />
-        <param name="table_name" type="text" default="your_table_name" label="Nome Tabella Database" description="Inserisci il nome della tabella del database in cui importare i dati." />
+        <param name="table_name" type="text" default="#__presenze_timbrature" label="Nome Tabella Database" description="Inserisci il nome della tabella del database in cui importare i dati." />
     </params>
 
     <files>
